@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Layout</title>
+  <style>
+    .body {
+      margin: 0%;
+    }
+
+    .container {
+      margin: 0%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      border: 1px solid red;
+    }
+
+    .left {
+      border: 1px solid rgb(8, 182, 235);
+      margin: 0%;
+      width: 25%;
+      height: 90vh;
+    }
+
+    .total {
+      margin: 0%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+
+    .power,
+    .bulbs {
+      margin: 0%;
+      padding: 0%;
+      width: 49%;
+      height: 24vh;
+      border: 1px solid rgb(12, 150, 30);
+    }
+
+    .area {
+      margin: 0%;
+      width: 98%;
+      height: 72%;
+      border: 1px solid rgb(12, 8, 235);
+    }
+
+    .main {
+      border: 1px solid rgb(8, 182, 235);
+      margin: 0%;
+      width: 50%;
+      height: 90vh;
+      overflow-y: scroll;
+    }
+
+    .heading {
+      margin: 0%;
+      height: 50px;
+      border: 1px solid rgb(134, 39, 158);
+    }
+
+    .major li {
+      height: 30px;
+      border: 1px solid rgb(39, 158, 75);
+      padding-left: 5px;
+    }
+
+    ul {
+      padding: 0%;
+      list-style: none;
+      /* margin: 0px; */
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    .right {
+      border: 1px solid rgb(8, 182, 235);
+      margin: 0%;
+      width: 25%;
+      height: 90vh;
+    }
+
+    .right div {
+      border: 1px solid rgb(23, 51, 59);
+      width: auto;
+      min-height: 33%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="left">
+      <div class="total">
+        <div class="power"></div>
+        <div class="bulbs"></div>
+      </div>
+      <div class="area">
+
+      </div>
+    </div>
+    <div class="main">
+      <div class="heading">
+        <h3>Lights Online</h3>
+      </div>
+      <div class="major">
+        <ul>
+          <li id="list1"><a href="#">Bulb Number</a></li>
+          <li id="list2"><a href="#">Bulb Number</a></li>
+          <li id="list3"><a href="#">Bulb Number</a></li>
+          <li id="list4"><a href="#">Bulb Number</a></li>
+          <li id="list5"><a href="#">Bulb Number</a></li>
+          <li id="list1"><a href="#">Bulb Number</a></li>
+          <li id="list2"><a href="#">Bulb Number</a></li>
+          <li id="list3"><a href="#">Bulb Number</a></li>
+          <li id="list4"><a href="#">Bulb Number</a></li>
+          <li id="list5"><a href="#">Bulb Number</a></li>
+
+        </ul>
+      </div>
+    </div>
+    <div class="right">
+      <div class="working">
+
+      </div>
+      <div class="notification">
+
+      </div>
+      <div class="saving">
+
+      </div>
+    </div>
+  </div>
+
+  
+
+</body>
+
+</html>

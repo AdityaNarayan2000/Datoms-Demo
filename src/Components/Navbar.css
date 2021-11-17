@@ -1,0 +1,123 @@
+
+* {
+    width: auto;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .Menu-Bar body {
+    font-family: "Poppins", Sans-serif;
+    width: auto;
+  }
+  
+  .Logo{
+    width: 120px;
+    height: 40px;
+    margin: 1.4% 0.6%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  .Menu-Bar {
+    height: 75px;
+    width: auto;
+    background: #041230;
+    /* background: #42d117; */
+    text-align: center;
+    min-height:50%;
+
+  }
+  
+  .Menu-Bar ul {
+    margin: auto;
+    display: inline-flex;
+    flex-direction: row;
+    list-style: none;
+    color: aliceblue;
+  }
+  
+  .Menu-Bar li {
+    width: 120px;
+    margin: 0px;
+    font-size: 14px;
+    padding: 25px 12px;
+    font-weight: 500;
+    
+    border-bottom: 4px solid #ffffff00;
+  }
+  
+  .Menu-Bar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+  }
+  /* .active, */
+   .Menu-Bar ul li:hover{
+    border-bottom: 4px solid #f79831;
+    background: #EFE7E745;
+    color: #f79831;
+  }
+  .active, .Menu-Bar ul li a:hover {
+    color: #f79831;
+    border-radius: 3px;
+  }
+  
+  .Menu-Bar .fa {
+    margin-right: 8px;
+  }
+  
+  .sub-menu-1 {
+    display: none;
+  }
+  
+  .Menu-Bar .ul .li:hover .sub-menu-1 {
+    display: block;
+    position: absolute;
+    background-color: rgb(15, 15, 15);
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  
+  .Menu-Bar ul li:hover .sub-menu-1 ul {
+    display: block;
+    margin: 10px;
+  }
+  .Menu-Bar ul li:hover .sub-menu-1 ul li {
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+  }
+  
+  .Menu-Bar ul li:hover .sub-menu-1 ul li:last-child {
+    border-bottom: none;
+  }
+  
+  .Menu-Bar ul li:hover .sub-menu-1 ul li a:hover {
+    color: #0cf1de;
+  }
+
+
+  .loginBtn{
+    border: transparent;
+    background: #EF6352;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    height: 43px !important;
+    padding: 0px 35px !important;
+    margin: 15px 20px;
+    border-radius: 3px;
+  }
+button .loginBtn :hover{
+    border: transparent;
+    background: #ad898454;
+    /* color: rgb(255, 255, 255); */
+    /* font-weight: 500; */
+    height: 43px !important;
+    padding: 0px 35px !important;
+    /* margin: 22px 15px; */
+    border-radius: 3px;
+  }

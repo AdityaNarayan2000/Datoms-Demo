@@ -1,0 +1,155 @@
+.body {
+  margin: 0%;
+}
+
+.container {
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main {
+  margin: 0%;
+  width: 72%;
+  height: 90vh;
+  overflow-y: scroll;
+}
+
+.top {
+  margin: 0%;
+  display: flex;
+  flex-direction: row;
+  height: 45vh;
+}
+
+.top div .Stats1, .top div .Stats2, .top div .Stats3 {
+  width: 48%;
+}
+
+.top .Stats1 {
+  height: 275px;
+  width: 620px;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  margin: 1.5% 0.5%;
+  /* padding: 0.5%; */
+  box-shadow: 0 5px 10px 0px #79797970;
+}
+
+.top .Stats3 {
+  height: 300px;
+  width: 200px;
+}
+
+.top .Stats4 {
+  height: 97%;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+}
+
+.leftStat {
+  width: 50%;
+}
+
+.rightStat {
+  width: 50%;
+}
+
+.ResponseTime {
+  height: 80%;
+  border-radius: 8px;
+}
+
+.tiny {
+  border-radius: 8px;
+  margin-top: 3%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+  height: 50%;
+  background-image: linear-gradient(to bottom right, #041f5a 0%, #041230 74%);
+}
+
+.bottomStat .tiny .circleS {
+  position: relative;
+  top: -50;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: row;
+  height: 40vh;
+}
+
+.bottom .Stats1, .bottom .Stats2, .bottom .Stats3 {
+  height: 40vh;
+  width: 48%;
+  margin: .5%;
+  border-radius: 8px;
+}
+
+.bottom .Stats1 {
+  width: 650px;
+  background-image: linear-gradient(to bottom right, #041f5a 0%, #041230 74%);
+}
+
+.HeatBar {
+  height: 80%;
+  position: relative;
+  top: -0%;
+}
+
+.bottom .Stats2 {
+  background-image: linear-gradient(to bottom right, #5c0202 0%, #f72424 74%);
+}
+
+.bottom .Stats2 .Pie {
+  position: relative;
+  top: 20px;
+  right: -30px;
+}
+
+.bottom .Stats3 {
+  width: 400px;
+  background-image: linear-gradient(to bottom right, #041f5a 0%, #041230 74%);
+  box-shadow: 0 -5px 10px 0px #79797970;
+}
+
+.bottom .Stats3 .ResponseTime {
+  border-radius: 8px;
+}
+
+img {
+  width: 400px;
+  height: 230px;
+  object-fit: fill;
+}
+
+.Systems .right {
+  margin: 0%;
+  width: 28%;
+  height: 90vh;
+}
+
+.Systems .right div {
+  margin: 2%;
+  border-radius: 8px;
+  width: auto;
+  min-height: 25%;
+}
+
+.Systems .working {
+  background-image: linear-gradient(to top left, rgb(154, 230, 93), rgb(34, 112, 47));
+}
+
+.Systems .working .Pie {
+  position: relative;
+  top: -30px;
+  right: -170px;
+}
+
+.Systems .notification {
+  height: 58%;
+  background-image: linear-gradient(to bottom right, #041f5a 0%, #041230 74%);
+}
