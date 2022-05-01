@@ -9,7 +9,6 @@ import Security from './Components/Security';
 import Traffic from './Components/Traffic';
 
 
-
 function App() {
   return (
     <div>
